@@ -4,10 +4,10 @@ public class H3_main {
      
 	
      public static void main(String[]args) {
-      Mensch m=new Mensch();
-      m.setAlter();
+      Mensch mneu=new Mensch();
+      mneu.setAlter();
       
-	  System.out.println(m.getName()+ " ist " + m.getGebJahr()+ " geboren und "+ m.getAlter()+" alt.");
+	  System.out.println(mneu.getName()+ " ist " + mneu.getGebJahr()+ " geboren und "+ mneu.getAlter()+" alt.");
 	  
      }
 }

@@ -4,10 +4,10 @@ public class Zahl {
 	public boolean even;
 	public boolean small;
 	public boolean positive;
-	public int num=0;
+	public int num=4;
 	
     	public void setEven() {
-    		if(num%2==0) {
+    		if(num %2==0) {
     			even=true;
     		} else { even=false;}
     	}

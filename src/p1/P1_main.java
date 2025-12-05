@@ -18,7 +18,7 @@ public class P1_main {
 	}
 	
    public static void multfrac(Bruch a, Bruch b ) {
-	   System.out.println(a.Bruch *b.Bruch);
+	   System.out.println(a.Bruch() *b.Bruch());
 	   
    }
    
